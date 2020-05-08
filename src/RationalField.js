@@ -16,16 +16,26 @@ export default class RationalField {
 		if (n.constructor.prototype === Array.prototype) {
 			base = d;
 			[n, d] = n;
-		} else if (d === undefined) d = '1';
+		}
 
 		if (n.constructor.prototype === String.prototype) {
 			if (n.match('[\\.\\|]') !== null) {
+				if (base !== undefined)
+					throw new ValueError(
+						'RationalField#from: Third parameter makes no sense with fixed point input.'
+					);
+				base = d;
 				let [_n, _d] = Element._parse_fixed_point(base || this.base, n);
 				[_n, _d] = Element._simplify(_n, _d);
 				return new Element(_n, _d);
 			}
 
 			if (n.match('/') !== null) {
+				if (base !== undefined)
+					throw new ValueError(
+						'RationalField#from: Third parameter makes no sense with fraction input.'
+					);
+				base = d;
 				let [_n, _d] = Element._parse_fraction(base || this.base, n);
 				[_n, _d] = Element._simplify(_n, _d);
 				return new Element(_n, _d);
@@ -36,6 +46,8 @@ export default class RationalField {
 				d = '1';
 			}
 		}
+
+		if (d === undefined) d = '1';
 
 		if (base !== undefined) {
 			if (Number.isInteger(n) || Number.isInteger(d)) {

@@ -19,6 +19,11 @@
   resolved "https://registry.yarnpkg.com/@aureooms/js-integer-big-endian/-/js-integer-big-endian-8.0.0.tgz#fdf21db95bb6ce88763fd91646e3c09d865fd321"
   integrity sha512-2YuH9/ejGk6RCOVjsSVNG2evoHPF9hTjdle1sRET91hh566uVkcBezE7DT/iLGBsSoz8v1OhPRT83EazAgbq6g==
 
+"@aureooms/js-integer-big-endian@^8.0.2":
+  version "8.0.2"
+  resolved "https://registry.yarnpkg.com/@aureooms/js-integer-big-endian/-/js-integer-big-endian-8.0.2.tgz#aff5e9d98e4f02211d4d36d480b7b89d28ec346e"
+  integrity sha512-xFlVlTkt4P4ChQgc6EHpgzS61Iw+YR/9CBJfgtr1TA/YeNZocjCYOefgii8rrunRx9WBkQApFTW+P0svj5pQng==
+
 "@aureooms/js-integer@^6.0.0":
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/@aureooms/js-integer/-/js-integer-6.0.0.tgz#89059ee846d02beb0935b3b1c27c873c2a5a5d26"

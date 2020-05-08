@@ -14,6 +14,7 @@ const domain = {
 	from: (x, base) => ZZ.from(x, base),
 	str: (x, base) => x.toString(base),
 	jz: (x) => x.iszero(),
+	eq1: (x) => x.isone(),
 	lt0: (x) => x.sign() < 0,
 	gt1: (x) => x.gtn(1),
 	cmp: (a, b) => a.cmp(b),

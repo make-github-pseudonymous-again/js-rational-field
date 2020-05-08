@@ -31,7 +31,9 @@ export default function _make_methods(domain) {
 	const simplify = _simplify(domain);
 
 	const stringify_fraction = (x, d, b) =>
-		`${domain.str(x, b)}/${domain.str(d, b)}`;
+		domain.eq1(d)
+			? domain.str(x, b)
+			: `${domain.str(x, b)}/${domain.str(d, b)}`;
 
 	const digits = _digits(domain);
 	const stringify_digits = _stringify_digits(domain);

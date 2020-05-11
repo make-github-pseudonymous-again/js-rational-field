@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../">
+  <title data-ice="title">src/_make_rational_class.js | @aureooms/js-rational-field</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<link rel="stylesheet" href="./inject/css/0-style.css"><script src="./inject/script/0-header.js"></script><meta name="description" content="Rational field for JavaScript"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="@aureooms/js-rational-field"><meta property="twitter:description" content="Rational field for JavaScript"></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  <a href="./manual/index.html" data-ice="manualHeaderLink">Manual</a>
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+<a style="position:relative; top:3px;" href="https://github.com/aureooms/js-rational-field"><img width="20px" src="./image/github.png"></a></header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-_make_methods">_make_methods</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-_make_rational_class">_make_rational_class</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/_make_rational_class.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import _make_methods from &apos;./_make_methods&apos;;
+
+import {ZeroDivisionError} from &apos;@aureooms/js-integer&apos;;
+
+export default function _make_rational_class(domain, default_display_base) {
+	const {
+		add,
+		sub,
+		mul,
+		div,
+		pow,
+		cmp,
+		simplify,
+		stringify_fixed_point,
+		stringify_fraction,
+		parse_fraction,
+		parse_fixed_point
+	} = _make_methods(domain);
+
+	class Rational {
+		constructor(n, d) {
+			this.n = n;
+			this.d = d;
+		}
+
+		add(other) {
+			const [a, b] = add(this.n, this.d, other.n, other.d);
+			const [c, d] = simplify(a, b);
+			return new Rational(c, d);
+		}
+
+		sub(other) {
+			const [a, b] = sub(this.n, this.d, other.n, other.d);
+			const [c, d] = simplify(a, b);
+			return new Rational(c, d);
+		}
+
+		mul(other) {
+			const [a, b] = mul(this.n, this.d, other.n, other.d);
+			const [c, d] = simplify(a, b);
+			return new Rational(c, d);
+		}
+
+		div(other) {
+			if (other.isZero()) throw new ZeroDivisionError(&apos;Rational.div&apos;);
+			const [a, b] = div(this.n, this.d, other.n, other.d);
+			const [c, d] = simplify(a, b);
+			return new Rational(c, d);
+		}
+
+		neg() {
+			return new Rational(domain.neg(this.n), this.d);
+		}
+
+		isZero() {
+			return domain.jz(this.n);
+		}
+
+		sign() {
+			return domain.sgn(this.n);
+		}
+
+		inv() {
+			if (domain.jz(this.n)) throw new ZeroDivisionError(&apos;Rational.inv&apos;);
+			if (domain.sign(this.n) &gt; 0) return new Rational(this.d, this.n);
+			if (domain.sign(this.n) &lt; 0)
+				return new Rational(domain.neg(this.d), domain.neg(this.n));
+		}
+
+		pow(n) {
+			if (!Number.isInteger(n))
+				throw new Error(&apos;Rational.pow only accepts integer argument.&apos;);
+			const [a, b] = pow(this.n, this.d, n);
+			return new Rational(a, b);
+		}
+
+		cmp(other) {
+			return cmp(this.n, this.d, other.n, other.d);
+		}
+
+		eq(other) {
+			return this.cmp(other) === 0;
+		}
+
+		ne(other) {
+			return this.cmp(other) !== 0;
+		}
+
+		gt(other) {
+			return this.cmp(other) &gt; 0;
+		}
+
+		lt(other) {
+			return this.cmp(other) &lt; 0;
+		}
+
+		ge(other) {
+			return this.cmp(other) &gt;= 0;
+		}
+
+		le(other) {
+			return this.cmp(other) &lt;= 0;
+		}
+
+		toString(base = default_display_base) {
+			return stringify_fraction(this.n, this.d, base);
+		}
+
+		toNumber() {
+			throw new Error(&apos;Rational.toNumber not implemented.&apos;);
+		}
+
+		toFixed(decimals = undefined, base = default_display_base) {
+			const s = stringify_fixed_point(this.n, this.d, base);
+			if (decimals === undefined) return s;
+
+			const [left, right] = (s + &apos;.&apos;).split(&apos;.&apos;);
+			const [transient, repetend] = (right + &apos;|0&apos;).split(&apos;|&apos;);
+
+			const _right = (
+				transient +
+				new Array(Math.ceil(decimals / repetend.length) + 1).join(repetend)
+			).slice(0, decimals);
+
+			return left + &apos;.&apos; + _right.slice(0, decimals);
+		}
+	}
+
+	Rational._parse_fraction = parse_fraction;
+	Rational._parse_fixed_point = parse_fixed_point;
+	Rational._simplify = simplify;
+
+	return Rational;
+}
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

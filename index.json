@@ -1,0 +1,753 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "src/QQ.js",
+    "content": "// Import ZZ from '@aureooms/js-integer-ring' ;\nimport {_chr} from '@aureooms/js-integer-big-endian';\nimport {ZZ, DEFAULT_DISPLAY_BASE} from '@aureooms/js-integer';\nimport RationalField from './RationalField';\n\nconst domain = {\n\tname: 'ZZ',\n\tadd: (a, b) => a.add(b),\n\tsub: (a, b) => a.sub(b),\n\tmul: (a, b) => a.mul(b),\n\tmuln: (a, b) => a.muln(b),\n\tdiv: (a, b) => a.div(b),\n\treg: (x, base) => ZZ.from(x, base),\n\tfrom: (x, base) => ZZ.from(x, base),\n\tstr: (x, base) => x.toString(base),\n\tjz: (x) => x.iszero(),\n\teq1: (x) => x.isone(),\n\tlt0: (x) => x.sign() < 0,\n\tgt1: (x) => x.gtn(1),\n\tcmp: (a, b) => a.cmp(b),\n\teq: (a, b) => a.eq(b),\n\tsgn: (x) => x.sign(),\n\tabs: (x) => x.abs(),\n\tneg: (x) => x.opposite(),\n\tdivmod: (a, b) => a.divmod(b),\n\tdivmodn: (a, b) => a.divmodn(b),\n\tegcd: (a, b) => {\n\t\tconst {u, v} = a.egcd(b);\n\t\treturn {\n\t\t\tu: u.iabs(),\n\t\t\tv: v.iabs()\n\t\t};\n\t},\n\tpown: (x, n) => x.pown(n),\n\t_chr,\n\thas: (...args) => ZZ.has(...args)\n};\n\nexport default new RationalField(\n\t'Rational Field',\n\tdomain,\n\tDEFAULT_DISPLAY_BASE\n);\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/js/js-rational-field/src/QQ.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "variable",
+    "name": "domain",
+    "memberof": "src/QQ.js",
+    "static": true,
+    "longname": "src/QQ.js~domain",
+    "access": "public",
+    "export": false,
+    "importPath": "@aureooms/js-rational-field/src/QQ.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{\"name\": string, \"add\": *, \"sub\": *, \"mul\": *, \"muln\": *, \"div\": *, \"reg\": *, \"from\": *, \"str\": *, \"jz\": *, \"eq1\": *, \"lt0\": *, \"gt1\": *, \"cmp\": *, \"eq\": *, \"sgn\": *, \"abs\": *, \"neg\": *, \"divmod\": *, \"divmodn\": *, \"egcd\": *, \"pown\": *, \"_chr\": *, \"has\": *}"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 50,
+    "kind": "file",
+    "name": "src/_make_methods.js",
+    "content": "import {__factorize__} from '@aureooms/js-prime';\nimport {$2, iadd1, eq0, gt1, divmod} from '@aureooms/js-number';\nimport {\n\t_add,\n\t_sub,\n\t_mul,\n\t_div,\n\t_pow,\n\t_cmp_no_bounds,\n\t_simplify,\n\t_digits,\n\t_stringify_digits,\n\t_parse_fraction,\n\t_parse_fixed_point\n} from '@aureooms/js-rational';\n\nexport default function _make_methods(domain) {\n\tconst primefactors = new Map();\n\tconst factorize = __factorize__($2, iadd1, eq0, gt1, divmod);\n\tconst ufactors = (n) => {\n\t\tif (!primefactors.has(n)) primefactors.set(n, new Set(factorize(n)));\n\t\treturn primefactors.get(n);\n\t};\n\n\tconst add = _add(domain);\n\tconst sub = _sub(domain);\n\tconst mul = _mul(domain);\n\tconst div = _div(domain);\n\tconst pow = _pow(domain);\n\tconst cmp = _cmp_no_bounds(domain);\n\tconst simplify = _simplify(domain);\n\n\tconst stringify_fraction = (x, d, b) =>\n\t\tdomain.eq1(d)\n\t\t\t? domain.str(x, b)\n\t\t\t: `${domain.str(x, b)}/${domain.str(d, b)}`;\n\n\tconst digits = _digits(domain);\n\tconst stringify_digits = _stringify_digits(domain);\n\tconst stringify_fixed_point = (x, d, b) =>\n\t\tstringify_digits(b, digits(b, ufactors(b), x, d));\n\n\tconst parse_fraction = _parse_fraction(domain);\n\tconst parse_fixed_point = _parse_fixed_point(domain);\n\n\treturn {\n\t\tadd,\n\t\tsub,\n\t\tmul,\n\t\tdiv,\n\t\tpow,\n\t\tcmp,\n\t\tsimplify,\n\t\tstringify_fixed_point,\n\t\tstringify_fraction,\n\t\tparse_fraction,\n\t\tparse_fixed_point\n\t};\n}\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/js/js-rational-field/src/_make_methods.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 51,
+    "kind": "function",
+    "name": "_make_methods",
+    "memberof": "src/_make_methods.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/_make_methods.js~_make_methods",
+    "access": "private",
+    "export": true,
+    "importPath": "@aureooms/js-rational-field/src/_make_methods.js",
+    "importStyle": "_make_methods",
+    "description": null,
+    "lineNumber": 17,
+    "undocument": true,
+    "params": [
+      {
+        "name": "domain",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "{\"add\": *, \"sub\": *, \"mul\": *, \"div\": *, \"pow\": *, \"cmp\": *, \"simplify\": *, \"stringify_fixed_point\": *, \"stringify_fraction\": *, \"parse_fraction\": *, \"parse_fixed_point\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 52,
+    "kind": "file",
+    "name": "src/_make_rational_class.js",
+    "content": "import _make_methods from './_make_methods';\n\nimport {ZeroDivisionError} from '@aureooms/js-integer';\n\nexport default function _make_rational_class(domain, default_display_base) {\n\tconst {\n\t\tadd,\n\t\tsub,\n\t\tmul,\n\t\tdiv,\n\t\tpow,\n\t\tcmp,\n\t\tsimplify,\n\t\tstringify_fixed_point,\n\t\tstringify_fraction,\n\t\tparse_fraction,\n\t\tparse_fixed_point\n\t} = _make_methods(domain);\n\n\tclass Rational {\n\t\tconstructor(n, d) {\n\t\t\tthis.n = n;\n\t\t\tthis.d = d;\n\t\t}\n\n\t\tadd(other) {\n\t\t\tconst [a, b] = add(this.n, this.d, other.n, other.d);\n\t\t\tconst [c, d] = simplify(a, b);\n\t\t\treturn new Rational(c, d);\n\t\t}\n\n\t\tsub(other) {\n\t\t\tconst [a, b] = sub(this.n, this.d, other.n, other.d);\n\t\t\tconst [c, d] = simplify(a, b);\n\t\t\treturn new Rational(c, d);\n\t\t}\n\n\t\tmul(other) {\n\t\t\tconst [a, b] = mul(this.n, this.d, other.n, other.d);\n\t\t\tconst [c, d] = simplify(a, b);\n\t\t\treturn new Rational(c, d);\n\t\t}\n\n\t\tdiv(other) {\n\t\t\tif (other.isZero()) throw new ZeroDivisionError('Rational.div');\n\t\t\tconst [a, b] = div(this.n, this.d, other.n, other.d);\n\t\t\tconst [c, d] = simplify(a, b);\n\t\t\treturn new Rational(c, d);\n\t\t}\n\n\t\tneg() {\n\t\t\treturn new Rational(domain.neg(this.n), this.d);\n\t\t}\n\n\t\tisZero() {\n\t\t\treturn domain.jz(this.n);\n\t\t}\n\n\t\tsign() {\n\t\t\treturn domain.sgn(this.n);\n\t\t}\n\n\t\tinv() {\n\t\t\tif (domain.jz(this.n)) throw new ZeroDivisionError('Rational.inv');\n\t\t\tif (domain.sign(this.n) > 0) return new Rational(this.d, this.n);\n\t\t\tif (domain.sign(this.n) < 0)\n\t\t\t\treturn new Rational(domain.neg(this.d), domain.neg(this.n));\n\t\t}\n\n\t\tpow(n) {\n\t\t\tif (!Number.isInteger(n))\n\t\t\t\tthrow new Error('Rational.pow only accepts integer argument.');\n\t\t\tconst [a, b] = pow(this.n, this.d, n);\n\t\t\treturn new Rational(a, b);\n\t\t}\n\n\t\tcmp(other) {\n\t\t\treturn cmp(this.n, this.d, other.n, other.d);\n\t\t}\n\n\t\teq(other) {\n\t\t\treturn this.cmp(other) === 0;\n\t\t}\n\n\t\tne(other) {\n\t\t\treturn this.cmp(other) !== 0;\n\t\t}\n\n\t\tgt(other) {\n\t\t\treturn this.cmp(other) > 0;\n\t\t}\n\n\t\tlt(other) {\n\t\t\treturn this.cmp(other) < 0;\n\t\t}\n\n\t\tge(other) {\n\t\t\treturn this.cmp(other) >= 0;\n\t\t}\n\n\t\tle(other) {\n\t\t\treturn this.cmp(other) <= 0;\n\t\t}\n\n\t\ttoString(base = default_display_base) {\n\t\t\treturn stringify_fraction(this.n, this.d, base);\n\t\t}\n\n\t\ttoNumber() {\n\t\t\tthrow new Error('Rational.toNumber not implemented.');\n\t\t}\n\n\t\ttoFixed(decimals = undefined, base = default_display_base) {\n\t\t\tconst s = stringify_fixed_point(this.n, this.d, base);\n\t\t\tif (decimals === undefined) return s;\n\n\t\t\tconst [left, right] = (s + '.').split('.');\n\t\t\tconst [transient, repetend] = (right + '|0').split('|');\n\n\t\t\tconst _right = (\n\t\t\t\ttransient +\n\t\t\t\tnew Array(Math.ceil(decimals / repetend.length) + 1).join(repetend)\n\t\t\t).slice(0, decimals);\n\n\t\t\treturn left + '.' + _right.slice(0, decimals);\n\t\t}\n\t}\n\n\tRational._parse_fraction = parse_fraction;\n\tRational._parse_fixed_point = parse_fixed_point;\n\tRational._simplify = simplify;\n\n\treturn Rational;\n}\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/js/js-rational-field/src/_make_rational_class.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 53,
+    "kind": "function",
+    "name": "_make_rational_class",
+    "memberof": "src/_make_rational_class.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/_make_rational_class.js~_make_rational_class",
+    "access": "private",
+    "export": true,
+    "importPath": "@aureooms/js-rational-field/src/_make_rational_class.js",
+    "importStyle": "_make_rational_class",
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "params": [
+      {
+        "name": "domain",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "default_display_base",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 54,
+    "kind": "file",
+    "name": "src/index.js",
+    "content": "import QQ from './QQ';\nimport RationalField from './RationalField';\nimport _make_methods from './_make_methods';\nimport _make_rational_class from './_make_rational_class';\n\nexport default QQ;\n\nexport {QQ, RationalField, _make_methods, _make_rational_class};\n",
+    "static": true,
+    "longname": "/home/aureooms/dev/js/js-rational-field/src/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "kind": "index",
+    "content": "[@aureooms/js-rational-field](https://aureooms.github.io/js-rational-field)\n==\n\nRational field for JavaScript.\nSee [docs](https://aureooms.github.io/js-rational-field/index.html).\n\n> :warning: The code needs a ES2015+ polyfill to run (`regeneratorRuntime`),\n> for instance [@babel/polyfill](https://babeljs.io/docs/usage/polyfill).\n\n[![License](https://img.shields.io/github/license/aureooms/js-rational-field.svg)](https://raw.githubusercontent.com/aureooms/js-rational-field/master/LICENSE)\n[![Version](https://img.shields.io/npm/v/@aureooms/js-rational-field.svg)](https://www.npmjs.org/package/@aureooms/js-rational-field)\n[![Build](https://img.shields.io/travis/aureooms/js-rational-field/master.svg)](https://travis-ci.org/aureooms/js-rational-field/branches)\n[![Dependencies](https://img.shields.io/david/aureooms/js-rational-field.svg)](https://david-dm.org/aureooms/js-rational-field)\n[![Dev dependencies](https://img.shields.io/david/dev/aureooms/js-rational-field.svg)](https://david-dm.org/aureooms/js-rational-field?type=dev)\n[![GitHub issues](https://img.shields.io/github/issues/aureooms/js-rational-field.svg)](https://github.com/aureooms/js-rational-field/issues)\n[![Downloads](https://img.shields.io/npm/dm/@aureooms/js-rational-field.svg)](https://www.npmjs.org/package/@aureooms/js-rational-field)\n\n[![Code issues](https://img.shields.io/codeclimate/issues/aureooms/js-rational-field.svg)](https://codeclimate.com/github/aureooms/js-rational-field/issues)\n[![Code maintainability](https://img.shields.io/codeclimate/maintainability/aureooms/js-rational-field.svg)](https://codeclimate.com/github/aureooms/js-rational-field/trends/churn)\n[![Code coverage (cov)](https://img.shields.io/codecov/c/gh/aureooms/js-rational-field/master.svg)](https://codecov.io/gh/aureooms/js-rational-field)\n<!--[![Code coverage (alls)](https://img.shields.io/coveralls/github/aureooms/js-rational-field/master.svg)](https://coveralls.io/r/aureooms/js-rational-field)-->\n<!--[![Code coverage (clim)](https://img.shields.io/codeclimate/coverage/aureooms/js-rational-field.svg)](https://codeclimate.com/github/aureooms/js-rational-field/trends/test_coverage_new_code)-->\n[![Code technical debt](https://img.shields.io/codeclimate/tech-debt/aureooms/js-rational-field.svg)](https://codeclimate.com/github/aureooms/js-rational-field/trends/technical_debt)\n[![Documentation](https://aureooms.github.io/js-rational-field/badge.svg)](https://aureooms.github.io/js-rational-field/source.html)\n[![Package size](https://img.shields.io/bundlephobia/minzip/@aureooms/js-rational-field)](https://bundlephobia.com/result?p=@aureooms/js-rational-field)\n",
+    "longname": "/home/aureooms/dev/js/js-rational-field/README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\n  \"name\": \"@aureooms/js-rational-field\",\n  \"description\": \"Rational field for JavaScript\",\n  \"version\": \"1.0.0\",\n  \"author\": \"aureooms\",\n  \"ava\": {\n    \"files\": [\n      \"test/src/**/*\"\n    ],\n    \"require\": [\n      \"@babel/polyfill\",\n      \"@babel/register\"\n    ],\n    \"timeout\": \"1m\"\n  },\n  \"babel\": {\n    \"presets\": [\n      \"@babel/preset-env\"\n    ],\n    \"plugins\": [\n      \"@babel/plugin-proposal-async-generator-functions\"\n    ],\n    \"env\": {\n      \"development\": {\n        \"sourceMaps\": \"inline\"\n      }\n    }\n  },\n  \"bugs\": {\n    \"url\": \"https://github.com/aureooms/js-rational-field/issues\"\n  },\n  \"dependencies\": {\n    \"@aureooms/js-error\": \"^4.0.0\",\n    \"@aureooms/js-integer\": \"^6.0.0\",\n    \"@aureooms/js-integer-big-endian\": \"^8.0.2\",\n    \"@aureooms/js-number\": \"^3.1.0\",\n    \"@aureooms/js-prime\": \"^4.0.0\",\n    \"@aureooms/js-rational\": \"^3.0.1\"\n  },\n  \"devDependencies\": {\n    \"@babel/cli\": \"7.8.4\",\n    \"@babel/core\": \"7.9.6\",\n    \"@babel/plugin-proposal-async-generator-functions\": \"7.8.3\",\n    \"@babel/polyfill\": \"7.8.7\",\n    \"@babel/preset-env\": \"7.9.6\",\n    \"@babel/register\": \"7.9.0\",\n    \"ava\": \"3.8.1\",\n    \"coveralls\": \"3.1.0\",\n    \"esdoc\": \"1.1.0\",\n    \"esdoc-ecmascript-proposal-plugin\": \"1.0.0\",\n    \"esdoc-inject-script-plugin\": \"1.0.0\",\n    \"esdoc-inject-style-plugin\": \"1.0.0\",\n    \"esdoc-standard-plugin\": \"1.0.0\",\n    \"np\": \"6.2.3\",\n    \"nyc\": \"15.0.1\",\n    \"xo\": \"0.30.0\"\n  },\n  \"files\": [\n    \"lib\"\n  ],\n  \"homepage\": \"https://aureooms.github.io/js-rational-field\",\n  \"keywords\": [\n    \"bigdec\",\n    \"bigdecimal\",\n    \"computation\",\n    \"exact\",\n    \"field\",\n    \"fraction\",\n    \"rational\",\n    \"big\",\n    \"decimal\"\n  ],\n  \"license\": \"AGPL-3.0\",\n  \"main\": \"lib/index.js\",\n  \"repository\": {\n    \"type\": \"git\",\n    \"url\": \"https://github.com/aureooms/js-rational-field\"\n  },\n  \"scripts\": {\n    \"build\": \"rm -rf lib && babel src -d lib\",\n    \"cover\": \"nyc --reporter=lcov npm test\",\n    \"esdoc\": \"esdoc\",\n    \"prepare\": \"npm run build\",\n    \"release\": \"np\",\n    \"test\": \"xo && ava\"\n  },\n  \"xo\": {\n    \"prettier\": true,\n    \"ignore\": [\n      \"lib\",\n      \"doc\"\n    ],\n    \"plugins\": [\n      \"unicorn\"\n    ],\n    \"rules\": {\n      \"unicorn/filename-case\": \"off\",\n      \"camelcase\": \"off\"\n    }\n  }\n}\n",
+    "longname": "/home/aureooms/dev/js/js-rational-field/package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manualIndex",
+    "globalIndex": false,
+    "content": null,
+    "longname": "",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "/home/aureooms/dev/js/js-rational-field/doc/manual/overview.md",
+    "name": "./doc/manual/overview.md",
+    "content": "# Overview\n",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "/home/aureooms/dev/js/js-rational-field/doc/manual/installation.md",
+    "name": "./doc/manual/installation.md",
+    "content": "# Installation\n\nCan be managed using\n[yarn](https://yarnpkg.com/en/docs),\n[npm](https://docs.npmjs.com),\nor [jspm](https://jspm.org/docs).\n\n\n### yarn\n```terminal\nyarn add @aureooms/js-rational-field\n```\n\n### npm\n```terminal\nnpm install @aureooms/js-rational-field --save\n```\n\n### jspm\n```terminal\njspm install npm:@aureooms/js-rational-field\n```\n",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "/home/aureooms/dev/js/js-rational-field/doc/manual/usage.md",
+    "name": "./doc/manual/usage.md",
+    "content": "# Usage\n\n> :warning: The code needs a ES2015+ polyfill to run (`regeneratorRuntime`),\n> for instance [@babel/polyfill](https://babeljs.io/docs/usage/polyfill).\n\nFirst, require the polyfill at the entry point of your application\n```js\nrequire( '@babel/polyfill' ) ;\n// or\nimport '@babel/polyfill' ;\n```\n\nThen, import the library where needed\n```js\nconst rationalfield = require( '@aureooms/js-rational-field' ) ;\n// or\nimport * as rationalfield from '@aureooms/js-rational-field' ;\n```\n",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "/home/aureooms/dev/js/js-rational-field/doc/manual/example.md",
+    "name": "./doc/manual/example.md",
+    "content": "# Examples\n\n> More examples in [the test files](https://github.com/aureooms/js-rational-field/tree/master/test/src).\n",
+    "static": true,
+    "access": "public"
+  }
+]

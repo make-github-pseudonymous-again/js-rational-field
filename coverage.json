@@ -1,0 +1,28 @@
+{
+  "coverage": "0%",
+  "expectCount": 3,
+  "actualCount": 0,
+  "files": {
+    "src/QQ.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        6
+      ]
+    },
+    "src/_make_methods.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        17
+      ]
+    },
+    "src/_make_rational_class.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        5
+      ]
+    }
+  }
+}

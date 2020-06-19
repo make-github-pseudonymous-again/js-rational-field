@@ -1,8 +1,17 @@
 [@aureooms/js-rational-field](https://aureooms.github.io/js-rational-field)
 ==
 
-Rational field for JavaScript.
-See [docs](https://aureooms.github.io/js-rational-field/index.html).
+<img src="https://upload.wikimedia.org/wikipedia/commons/1/17/Number-systems.svg" width="864">
+
+Rational field for JavaScript (ℚ).
+Based on
+[@aureooms/js-rational](http://aureooms.github.io/js-rational)
+and
+[@aureooms/js-integer](https://aureooms.github.io/js-integer).
+See [docs](https://aureooms.github.io/js-rational-field).
+Parent is [@aureooms/js-algorithms](https://github.com/aureooms/js-algorithms).
+
+> [Try it on RunKit](https://runkit.com/aureooms/js-rational-field)!
 
 > :warning: The code needs a ES2015+ polyfill to run (`regeneratorRuntime`),
 > for instance [@babel/polyfill](https://babeljs.io/docs/usage/polyfill).

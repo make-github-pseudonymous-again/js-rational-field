@@ -16,6 +16,11 @@ Parent is [@aureooms/js-algorithms](https://github.com/aureooms/js-algorithms).
 > :warning: The code needs a ES2015+ polyfill to run (`regeneratorRuntime`),
 > for instance [@babel/polyfill](https://babeljs.io/docs/usage/polyfill).
 
+```js
+QQ.from('0.1').add(QQ.from('0.2')).toFixed(); // 0.3
+QQ.from(355,113).toFixed(); // 3.|1415929203539823008849557522123893805309734513274336283185840707964601769911504424778761061946902654867256637168
+```
+
 [![License](https://img.shields.io/github/license/aureooms/js-rational-field.svg)](https://raw.githubusercontent.com/aureooms/js-rational-field/master/LICENSE)
 [![Version](https://img.shields.io/npm/v/@aureooms/js-rational-field.svg)](https://www.npmjs.org/package/@aureooms/js-rational-field)
 [![Build](https://img.shields.io/travis/aureooms/js-rational-field/master.svg)](https://travis-ci.org/aureooms/js-rational-field/branches)

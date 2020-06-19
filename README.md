@@ -18,8 +18,6 @@ See [docs](https://aureooms.github.io/js-rational-field/index.html).
 [![Code issues](https://img.shields.io/codeclimate/issues/aureooms/js-rational-field.svg)](https://codeclimate.com/github/aureooms/js-rational-field/issues)
 [![Code maintainability](https://img.shields.io/codeclimate/maintainability/aureooms/js-rational-field.svg)](https://codeclimate.com/github/aureooms/js-rational-field/trends/churn)
 [![Code coverage (cov)](https://img.shields.io/codecov/c/gh/aureooms/js-rational-field/master.svg)](https://codecov.io/gh/aureooms/js-rational-field)
-<!--[![Code coverage (alls)](https://img.shields.io/coveralls/github/aureooms/js-rational-field/master.svg)](https://coveralls.io/r/aureooms/js-rational-field)-->
-<!--[![Code coverage (clim)](https://img.shields.io/codeclimate/coverage/aureooms/js-rational-field.svg)](https://codeclimate.com/github/aureooms/js-rational-field/trends/test_coverage_new_code)-->
 [![Code technical debt](https://img.shields.io/codeclimate/tech-debt/aureooms/js-rational-field.svg)](https://codeclimate.com/github/aureooms/js-rational-field/trends/technical_debt)
 [![Documentation](https://aureooms.github.io/js-rational-field/badge.svg)](https://aureooms.github.io/js-rational-field/source.html)
 [![Package size](https://img.shields.io/bundlephobia/minzip/@aureooms/js-rational-field)](https://bundlephobia.com/result?p=@aureooms/js-rational-field)

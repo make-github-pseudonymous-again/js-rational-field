@@ -12,16 +12,16 @@ test('-123^53 ∈ ℚ', (t) => {
 	t.true(QQ.has(ZZ.from('-123').pown(53)));
 });
 test('2 / -4 = -1/2', (t) => {
-	t.is('-1/2', QQ.from([2, -4]).toString());
+	t.is(QQ.from([2, -4]).toString(), '-1/2');
 });
 test('3 / -12 = -1/4', (t) => {
 	const x = QQ.from('-819238192381', '382972173981729381');
 	t.is(
-		'-1/4',
 		x
 			.mul(QQ.from(3))
 			.div(x.mul(QQ.from(-12)))
-			.toString()
+			.toString(),
+		'-1/4'
 	);
 });
 

@@ -60,15 +60,15 @@
   ],
   "homepage": "https://aureooms.github.io/js-rational-field",
   "keywords": [
+    "big",
     "bigdec",
     "bigdecimal",
     "computation",
+    "decimal",
     "exact",
     "field",
     "fraction",
-    "rational",
-    "big",
-    "decimal"
+    "rational"
   ],
   "license": "AGPL-3.0",
   "main": "lib/index.js",

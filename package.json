@@ -137,16 +137,16 @@
   },
   "xo": {
     "prettier": true,
-    "ignore": [
-      "lib",
-      "doc"
-    ],
     "plugins": [
       "unicorn"
     ],
     "rules": {
       "unicorn/filename-case": "off",
       "camelcase": "off"
-    }
+    },
+    "ignores": [
+      "lib",
+      "doc"
+    ]
   }
 }

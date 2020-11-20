@@ -5,7 +5,7 @@
 
 Rational field for JavaScript (ℚ).
 Based on
-[@aureooms/js-rational](http://aureooms.github.io/js-rational)
+[@aureooms/js-rational](https://aureooms.github.io/js-rational)
 and
 [@aureooms/js-integer](https://aureooms.github.io/js-integer).
 See [docs](https://aureooms.github.io/js-rational-field).

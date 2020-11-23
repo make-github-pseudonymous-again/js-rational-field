@@ -1,7 +1,16 @@
-[@aureooms/js-rational-field](https://aureooms.github.io/js-rational-field)
+:woman_farmer: [@aureooms/js-rational-field](https://aureooms.github.io/js-rational-field)
 ==
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/1/17/Number-systems.svg" width="864">
+<p align="center">
+<a href="https://commons.wikimedia.org/wiki/File:Number-systems.svg">
+<img alt="Number systems" src="https://upload.wikimedia.org/wikipedia/commons/1/17/Number-systems.svg" width="600">
+</a><br/>
+<a href="https://commons.wikimedia.org/w/index.php?title=User:Mortalmoth">
+User:Mortalmoth
+</a>
+/
+<a href="https://en.wikipedia.org/wiki/Public_domain">Public Domain</a>
+</p>
 
 Rational field for JavaScript (ℚ).
 Based on

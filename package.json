@@ -145,11 +145,16 @@
     ],
     "rules": {
       "unicorn/filename-case": "off",
-      "camelcase": "off"
+      "camelcase": "off",
+      "unicorn/no-new-array": "off"
     },
-    "ignores": [
-      "lib",
-      "doc"
+    "overrides": [
+      {
+        "files": [
+          "doc/**"
+        ],
+        "env": "browser"
+      }
     ]
   }
 }

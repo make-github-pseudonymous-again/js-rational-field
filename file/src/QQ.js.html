@@ -39,7 +39,7 @@
 <pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">// Import ZZ from &apos;@aureooms/js-integer-ring&apos; ;
 import {_chr} from &apos;@aureooms/js-integer-big-endian&apos;;
 import {ZZ, DEFAULT_DISPLAY_BASE} from &apos;@aureooms/js-integer&apos;;
-import RationalField from &apos;./RationalField&apos;;
+import RationalField from &apos;./RationalField.js&apos;;
 
 const domain = {
 	name: &apos;ZZ&apos;,
@@ -66,18 +66,18 @@ const domain = {
 		const {u, v} = a.egcd(b);
 		return {
 			u: u.iabs(),
-			v: v.iabs()
+			v: v.iabs(),
 		};
 	},
 	pown: (x, n) =&gt; x.pown(n),
 	_chr,
-	has: (...args) =&gt; ZZ.has(...args)
+	has: (...args) =&gt; ZZ.has(...args),
 };
 
 export default new RationalField(
 	&apos;Rational Field&apos;,
 	domain,
-	DEFAULT_DISPLAY_BASE
+	DEFAULT_DISPLAY_BASE,
 );
 </code></pre>
 

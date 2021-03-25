@@ -36,7 +36,7 @@
 </nav>
 
 <div class="content" data-ice="content"><h1 data-ice="title">src/_make_rational_class.js</h1>
-<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import _make_methods from &apos;./_make_methods&apos;;
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import _make_methods from &apos;./_make_methods.js&apos;;
 
 import {ZeroDivisionError} from &apos;@aureooms/js-integer&apos;;
 
@@ -52,7 +52,7 @@ export default function _make_rational_class(domain, default_display_base) {
 		stringify_fixed_point,
 		stringify_fraction,
 		parse_fraction,
-		parse_fixed_point
+		parse_fixed_point,
 	} = _make_methods(domain);
 
 	class Rational {

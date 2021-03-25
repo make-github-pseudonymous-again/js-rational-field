@@ -32,7 +32,7 @@ QQ.from(355,113).toFixed(); // 3.|1415929203539823008849557522123893805309734513
 
 [![License](https://img.shields.io/github/license/aureooms/js-rational-field.svg)](https://raw.githubusercontent.com/aureooms/js-rational-field/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@aureooms/js-rational-field.svg)](https://www.npmjs.org/package/@aureooms/js-rational-field)
-[![Build](https://img.shields.io/travis/aureooms/js-rational-field/main.svg)](https://travis-ci.org/aureooms/js-rational-field/branches)
+[![Build](https://img.shields.io/travis/aureooms/js-rational-field/main.svg)](https://travis-ci.com/aureooms/js-rational-field/branches)
 [![Dependencies](https://img.shields.io/david/aureooms/js-rational-field.svg)](https://david-dm.org/aureooms/js-rational-field)
 [![Dev dependencies](https://img.shields.io/david/dev/aureooms/js-rational-field.svg)](https://david-dm.org/aureooms/js-rational-field?type=dev)
 [![GitHub issues](https://img.shields.io/github/issues/aureooms/js-rational-field.svg)](https://github.com/aureooms/js-rational-field/issues)

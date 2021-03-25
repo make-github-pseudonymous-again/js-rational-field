@@ -76,12 +76,12 @@
     "url": "https://github.com/aureooms/js-rational-field/issues"
   },
   "dependencies": {
-    "@aureooms/js-error": "^5.0.0",
-    "@aureooms/js-integer": "^10.0.0",
-    "@aureooms/js-integer-big-endian": "^11.0.0",
+    "@aureooms/js-error": "^5.0.2",
+    "@aureooms/js-integer": "^10.0.1",
+    "@aureooms/js-integer-big-endian": "^11.0.1",
     "@aureooms/js-number": "^3.1.0",
     "@aureooms/js-prime": "^4.0.0",
-    "@aureooms/js-rational": "^3.0.1"
+    "@aureooms/js-rational": "^4.0.1"
   },
   "devDependencies": {
     "@babel/cli": "7.13.10",

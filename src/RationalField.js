@@ -1,6 +1,6 @@
 import {ValueError} from '@aureooms/js-error';
 import {ZeroDivisionError} from '@aureooms/js-integer';
-import _make_rational_class from './_make_rational_class';
+import _make_rational_class from "./_make_rational_class.js";
 
 export default class RationalField {
 	constructor(name, domain, base) {

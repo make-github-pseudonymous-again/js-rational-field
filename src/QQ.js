@@ -1,7 +1,7 @@
 // Import ZZ from '@aureooms/js-integer-ring' ;
 import {_chr} from '@aureooms/js-integer-big-endian';
 import {ZZ, DEFAULT_DISPLAY_BASE} from '@aureooms/js-integer';
-import RationalField from './RationalField';
+import RationalField from "./RationalField.js";
 
 const domain = {
 	name: 'ZZ',

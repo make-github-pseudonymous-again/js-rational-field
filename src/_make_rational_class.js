@@ -1,4 +1,4 @@
-import _make_methods from './_make_methods';
+import _make_methods from "./_make_methods.js";
 
 import {ZeroDivisionError} from '@aureooms/js-integer';
 

@@ -2,7 +2,7 @@ import test from 'ava';
 
 import {ZZ} from '@aureooms/js-integer';
 // Import ZZ from '@aureooms/js-integer-ring' ;
-import QQ from '../../src';
+import QQ from "../../src/index.js";
 
 test('1 ∈ ℚ', (t) => {
 	t.true(QQ.has(1));

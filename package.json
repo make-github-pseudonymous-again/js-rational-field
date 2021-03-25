@@ -53,7 +53,6 @@
     "@babel/cli": "7.13.10",
     "@babel/core": "7.13.10",
     "@babel/plugin-proposal-async-generator-functions": "7.13.8",
-    "@babel/polyfill": "7.12.1",
     "@babel/preset-env": "7.13.12",
     "@babel/register": "7.13.8",
     "ava": "3.15.0",
@@ -70,6 +69,7 @@
     "fixpack": "4.0.0",
     "np": "7.4.0",
     "power-assert": "1.6.1",
+    "regenerator-runtime": "0.13.7",
     "xo": "0.38.2"
   },
   "ava": {

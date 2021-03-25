@@ -11,7 +11,7 @@ import {
 	_digits,
 	_stringify_digits,
 	_parse_fraction,
-	_parse_fixed_point
+	_parse_fixed_point,
 } from '@aureooms/js-rational';
 
 export default function _make_methods(domain) {
@@ -54,6 +54,6 @@ export default function _make_methods(domain) {
 		stringify_fixed_point,
 		stringify_fraction,
 		parse_fraction,
-		parse_fixed_point
+		parse_fixed_point,
 	};
 }

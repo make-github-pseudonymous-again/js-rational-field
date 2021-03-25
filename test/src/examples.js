@@ -2,7 +2,7 @@ import test from 'ava';
 
 import {ZZ} from '@aureooms/js-integer';
 // Import ZZ from '@aureooms/js-integer-ring' ;
-import QQ from "../../src/index.js";
+import QQ from '../../src/index.js';
 
 test('1 ∈ ℚ', (t) => {
 	t.true(QQ.has(1));
@@ -21,7 +21,7 @@ test('3 / -12 = -1/4', (t) => {
 			.mul(QQ.from(3))
 			.div(x.mul(QQ.from(-12)))
 			.toString(),
-		'-1/4'
+		'-1/4',
 	);
 });
 

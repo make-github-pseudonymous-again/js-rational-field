@@ -1,7 +1,7 @@
 // Import ZZ from '@aureooms/js-integer-ring' ;
 import {_chr} from '@aureooms/js-integer-big-endian';
 import {ZZ, DEFAULT_DISPLAY_BASE} from '@aureooms/js-integer';
-import RationalField from "./RationalField.js";
+import RationalField from './RationalField.js';
 
 const domain = {
 	name: 'ZZ',
@@ -28,16 +28,16 @@ const domain = {
 		const {u, v} = a.egcd(b);
 		return {
 			u: u.iabs(),
-			v: v.iabs()
+			v: v.iabs(),
 		};
 	},
 	pown: (x, n) => x.pown(n),
 	_chr,
-	has: (...args) => ZZ.has(...args)
+	has: (...args) => ZZ.has(...args),
 };
 
 export default new RationalField(
 	'Rational Field',
 	domain,
-	DEFAULT_DISPLAY_BASE
+	DEFAULT_DISPLAY_BASE,
 );

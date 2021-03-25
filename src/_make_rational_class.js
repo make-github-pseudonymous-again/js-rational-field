@@ -1,4 +1,4 @@
-import _make_methods from "./_make_methods.js";
+import _make_methods from './_make_methods.js';
 
 import {ZeroDivisionError} from '@aureooms/js-integer';
 
@@ -14,7 +14,7 @@ export default function _make_rational_class(domain, default_display_base) {
 		stringify_fixed_point,
 		stringify_fraction,
 		parse_fraction,
-		parse_fixed_point
+		parse_fixed_point,
 	} = _make_methods(domain);
 
 	class Rational {

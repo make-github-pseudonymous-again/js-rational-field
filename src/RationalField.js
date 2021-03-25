@@ -1,6 +1,6 @@
 import {ValueError} from '@aureooms/js-error';
 import {ZeroDivisionError} from '@aureooms/js-integer';
-import _make_rational_class from "./_make_rational_class.js";
+import _make_rational_class from './_make_rational_class.js';
 
 export default class RationalField {
 	constructor(name, domain, base) {
@@ -22,7 +22,7 @@ export default class RationalField {
 			if (n.match('[\\.\\|]') !== null) {
 				if (base !== undefined)
 					throw new ValueError(
-						'RationalField#from: Third parameter makes no sense with fixed point input.'
+						'RationalField#from: Third parameter makes no sense with fixed point input.',
 					);
 				base = d;
 				let [_n, _d] = Element._parse_fixed_point(base || this.base, n);
@@ -33,7 +33,7 @@ export default class RationalField {
 			if (n.match('/') !== null) {
 				if (base !== undefined)
 					throw new ValueError(
-						'RationalField#from: Third parameter makes no sense with fraction input.'
+						'RationalField#from: Third parameter makes no sense with fraction input.',
 					);
 				base = d;
 				let [_n, _d] = Element._parse_fraction(base || this.base, n);
@@ -52,7 +52,7 @@ export default class RationalField {
 		if (base !== undefined) {
 			if (Number.isInteger(n) || Number.isInteger(d)) {
 				throw new ValueError(
-					'RationalField#from: using the base parameter does not make sense when passing a Integers.'
+					'RationalField#from: using the base parameter does not make sense when passing a Integers.',
 				);
 			} else {
 				base = this.base;

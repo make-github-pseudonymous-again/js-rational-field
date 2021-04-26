@@ -1,4 +1,4 @@
-:woman_farmer: [@aureooms/js-rational-field](https://aureooms.github.io/js-rational-field)
+:woman_farmer: [@aureooms/js-rational-field](https://make-github-pseudonymous-again.github.io/js-rational-field)
 ==
 
 <p align="center">
@@ -14,10 +14,10 @@ User:Mortalmoth
 
 Rational field for JavaScript (ℚ).
 Based on
-[@aureooms/js-rational](https://aureooms.github.io/js-rational)
+[@aureooms/js-rational](https://make-github-pseudonymous-again.github.io/js-rational)
 and
-[@aureooms/js-integer](https://aureooms.github.io/js-integer).
-See [docs](https://aureooms.github.io/js-rational-field).
+[@aureooms/js-integer](https://make-github-pseudonymous-again.github.io/js-integer).
+See [docs](https://make-github-pseudonymous-again.github.io/js-rational-field).
 Parent is [@aureooms/js-algorithms](https://github.com/aureooms/js-algorithms).
 
 > [Try it on RunKit](https://runkit.com/aureooms/js-rational-field)!
@@ -42,5 +42,5 @@ QQ.from(355,113).toFixed(); // 3.|1415929203539823008849557522123893805309734513
 [![Code maintainability](https://img.shields.io/codeclimate/maintainability/aureooms/js-rational-field.svg)](https://codeclimate.com/github/aureooms/js-rational-field/trends/churn)
 [![Code coverage (cov)](https://img.shields.io/codecov/c/gh/aureooms/js-rational-field/main.svg)](https://codecov.io/gh/aureooms/js-rational-field)
 [![Code technical debt](https://img.shields.io/codeclimate/tech-debt/aureooms/js-rational-field.svg)](https://codeclimate.com/github/aureooms/js-rational-field/trends/technical_debt)
-[![Documentation](https://aureooms.github.io/js-rational-field/badge.svg)](https://aureooms.github.io/js-rational-field/source.html)
+[![Documentation](https://make-github-pseudonymous-again.github.io/js-rational-field/badge.svg)](https://make-github-pseudonymous-again.github.io/js-rational-field/source.html)
 [![Package size](https://img.shields.io/bundlephobia/minzip/@aureooms/js-rational-field)](https://bundlephobia.com/result?p=@aureooms/js-rational-field)
